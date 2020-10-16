@@ -8,6 +8,7 @@ import { BlogArticle } from "../elements/BlogElements"
 import SEO from "../components/SEO"
 import Button from "../components/Button"
 
+//The blog template which we create programmatically and which shows the individual blog-post
 const ComponentName = ({ data }) => {
   const { content, title, description } = data.blog
 

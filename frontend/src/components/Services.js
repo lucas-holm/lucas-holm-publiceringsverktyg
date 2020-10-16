@@ -4,6 +4,7 @@ import services from "../constants/services"
 import { PostWrapper, Card } from "../elements/ServiceElements"
 import Section from "./Section"
 
+//Component for all services
 const Services = () => {
   return (
     <Section color="#fff">

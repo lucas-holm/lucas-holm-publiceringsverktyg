@@ -1,6 +1,7 @@
 import React from "react"
 import { ButtonWrapper, ButtonElement } from "../elements/ButtonElements"
 
+//Simple button component
 const Button = ({ children, href }) => {
   return (
     <ButtonWrapper>

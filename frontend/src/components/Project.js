@@ -9,6 +9,7 @@ import {
   ProjectInfo,
 } from "../elements/ProjectElements"
 
+//Component for each individual project
 const Project = ({ description, title, stack, image, index }) => {
   return (
     <ProjectCard>

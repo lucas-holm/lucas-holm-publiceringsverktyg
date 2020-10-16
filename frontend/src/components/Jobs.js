@@ -23,6 +23,7 @@ const query = graphql`
   }
 `
 
+//Jobs component
 const Jobs = () => {
   const data = useStaticQuery(query)
   const {
@@ -38,6 +39,7 @@ const Jobs = () => {
         <ButtonWrapper>
           {jobs.map((item, index) => {
             return (
+              //Active toggle for the buttons
               <Button
                 background={`${index === value ? "#6272a4" : "#fff"}`}
                 color={`${index === value ? "#fff" : "black"}`}

@@ -17,6 +17,7 @@ const query = graphql`
   }
 `
 
+//SEO component
 const SEO = ({ title, description }) => {
   const { site } = useStaticQuery(query)
   const {

@@ -1,10 +1,12 @@
 import styled from "styled-components"
 
+//Wrapper for the button
 export const ButtonWrapper = styled.div`
   display: flex;
   flex-direction: column;
 `
 
+//Simple button used in the jobs component
 export const Button = styled.button`
   padding: 0.8rem;
   border: none;
@@ -21,7 +23,7 @@ export const Button = styled.button`
     color: #fff;
   }
 `
-
+//Wrapper for the jobs
 export const JobsWrapper = styled.article`
   padding: 15px;
   transition: all 0.3s linear;

@@ -7,6 +7,7 @@ import Container from "./Container"
 import { ProjectsWrapper } from "../elements/ProjectElements"
 import Button from "./Button"
 
+//Component for all projects
 const Projects = ({ projects, title, showLink }) => {
   return (
     <Section>

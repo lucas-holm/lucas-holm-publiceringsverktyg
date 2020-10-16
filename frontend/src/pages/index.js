@@ -9,6 +9,7 @@ import Blogs from "../components/Blogs"
 import Intro from "../components/Intro"
 import SEO from "../components/SEO"
 
+//The index page with all the relevant components
 export default ({ data }) => {
   const {
     allStrapiProjects: { nodes: projects },

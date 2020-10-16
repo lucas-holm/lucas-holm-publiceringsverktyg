@@ -25,6 +25,7 @@ const query = graphql`
   }
 `
 
+//Intro component
 const Intro = () => {
   const {
     file: {

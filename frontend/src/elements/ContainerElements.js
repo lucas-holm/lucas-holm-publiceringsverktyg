@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+//The main container element which is used throughout the project
 export const MainContainer = styled.div`
   width: 1200px;
   margin: 0 auto;
@@ -11,6 +12,7 @@ export const MainContainer = styled.div`
   }
 `
 
+//Container for the intro component
 export const IntroContainer = styled.div`
   background-color: #fff;
   border: 1px solid #c1c1c1;

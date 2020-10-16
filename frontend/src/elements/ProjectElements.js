@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+//Wrapper for the projects
 export const ProjectsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -11,6 +12,7 @@ export const ProjectsWrapper = styled.div`
   }
 `
 
+//Styling for the individual project
 export const ProjectCard = styled.article`
   -webkit-box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);

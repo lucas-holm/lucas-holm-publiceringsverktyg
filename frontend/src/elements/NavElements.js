@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+//Wrapper for the nav
 export const NavWrapper = styled.nav`
   min-height: 15vh;
   background-color: #eaeaea;

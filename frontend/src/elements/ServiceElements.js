@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+//Wrapper for the posts
 export const PostWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
@@ -9,6 +10,7 @@ export const PostWrapper = styled.div`
   padding-top: 50px;
 `
 
+//Card element for the individual service
 export const Card = styled.article`
   -webkit-box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);

@@ -4,6 +4,7 @@ import Container from "../components/Container"
 import Section from "../components/Section"
 import { FormWrapper, InputWrapper } from "../elements/ContactElements"
 
+//Contact page which shows the form
 const contact = () => {
   return (
     <Layout>

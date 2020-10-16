@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Projects from "../components/Projects"
 // ...GatsbyImageSharpFluid
 
+//Projects page which shows all the projects
 const ProjectsPage = ({
   data: {
     allStrapiProjects: { nodes: projects },

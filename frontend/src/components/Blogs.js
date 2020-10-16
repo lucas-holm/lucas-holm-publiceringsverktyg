@@ -7,6 +7,8 @@ import Container from "./Container"
 import { BlogsWrapper } from "../elements/BlogElements"
 import Button from "./Button"
 
+//Component for all blog-articles
+
 export const Blogs = ({ blogs, title, showLink }) => {
   return (
     <Section color="#eaeaea">

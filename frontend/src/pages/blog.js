@@ -5,6 +5,7 @@ import Blogs from "../components/Blogs"
 import SEO from "../components/SEO"
 // ...GatsbyImageSharpFluid
 
+//Blog page which shows all blog-posts
 const Blog = ({
   data: {
     allStrapiBlogs: { nodes: blogs },

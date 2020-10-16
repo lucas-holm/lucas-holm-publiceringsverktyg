@@ -6,6 +6,7 @@ import Footer from "./Footer"
 import Burger from "./Burger"
 import { createGlobalStyle } from "styled-components"
 
+//Global styles
 const GlobalStyle = createGlobalStyle`
   body, html {
     margin: 0;
@@ -23,6 +24,7 @@ a {
 }
 `
 
+//Layout component
 const Layout = ({ children }) => {
   return (
     <>

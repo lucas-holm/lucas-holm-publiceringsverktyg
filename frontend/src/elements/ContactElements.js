@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+//Wrapper for the form element
 export const FormWrapper = styled.article`
   width: 50%;
   margin: 5rem auto;
@@ -34,6 +35,7 @@ export const FormWrapper = styled.article`
   }
 `
 
+//Wrapper for the inputs in the form
 export const InputWrapper = styled.div`
   display: flex;
   flex-direction: column;

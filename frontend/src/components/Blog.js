@@ -9,6 +9,8 @@ import {
   Category,
 } from "../elements/BlogElements"
 
+//Component for every separate blog-article
+
 const Blog = ({ id, title, image, date, category, slug, description }) => {
   return (
     <Link to={`/blogs/${slug}`} key={id} style={{ color: "black" }}>

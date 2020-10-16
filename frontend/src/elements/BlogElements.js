@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+//Wrapper elements for the blog articles
 export const BlogsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
@@ -9,6 +10,7 @@ export const BlogsWrapper = styled.div`
   padding-top: 50px;
 `
 
+//Card element for the blogs
 export const BlogCard = styled.article`
   -webkit-box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
@@ -32,11 +34,13 @@ export const BlogCard = styled.article`
 
 export const BlogContent = styled.div``
 
+//Wrapper for the category element
 export const CategoryWrapper = styled.div`
   display: flex;
   justify-content: space-between;
 `
 
+//Category element
 export const Category = styled.p`
   text-transform: uppercase;
   background-color: #6272a4;
@@ -46,6 +50,7 @@ export const Category = styled.p`
   color: #fff;
 `
 
+//Element for the individual blog article
 export const BlogArticle = styled.article`
   h1,
   h2 {

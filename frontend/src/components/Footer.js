@@ -2,6 +2,7 @@ import React from "react"
 import SocialLinks from "../constants/socialLinks"
 import { FooterWrapper, SocialWrapper } from "../elements/FooterElements"
 
+//Footer component
 const Footer = () => {
   return (
     <FooterWrapper>
